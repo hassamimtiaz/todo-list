@@ -1,92 +1,90 @@
-# React Todo List App
+# TaskFlow - Project Management Application
 
-A modern, feature-rich todo list application built with React and Vite. This application includes drag-and-drop functionality, dark mode, and local storage persistence.
+A modern project management application built with React, featuring a Kanban board, multiple project support, and a beautiful UI inspired by Jira.
 
 ## Features
 
-- ✨ Create, read, update, and delete todos
-- 🎯 Mark todos as complete/incomplete
-- 🔄 Drag and drop to reorder todos
-- 🌓 Dark/Light mode toggle
-- 💾 Local storage persistence
-- 📱 Responsive design
-- ⌨️ Keyboard accessible
+### Project Management
+- Multiple project support with color coding
+- Collapsible sidebar navigation
+- Project-specific issue tracking
+- Different views (Board, Backlog, Reports)
 
-## Technologies Used
+### Kanban Board
+- Drag-and-drop functionality
+- Status columns (Backlog, To Do, In Progress, In Review, Done)
+- Visual status indicators
+- Issue count per column
 
-- React
+### Issue Management
+- Create and edit issues
+- Issue types (Story, Task, Bug)
+- Priority levels with visual indicators
+- Assignee tracking with avatar display
+- Due date management
+- Rich issue details
+
+### UI/UX
+- Modern, clean interface
+- Dark/Light theme support
+- Responsive design
+- Smooth animations
+- Professional styling
+
+## Tech Stack
+- React 18
 - Vite
-- @dnd-kit (for drag and drop)
-- CSS Variables (for theming)
-- Local Storage API
+- @dnd-kit for drag-and-drop
+- CSS Variables for theming
+- Local Storage for data persistence
 
 ## Getting Started
 
-### Prerequisites
+1. Clone the repository
+```bash
+git clone <repository-url>
+```
 
-- Node.js (v14 or higher)
-- npm (comes with Node.js)
+2. Install dependencies
+```bash
+npm install
+```
 
-### Installation
+3. Run the development server
+```bash
+npm run dev
+```
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/hassamimtiaz/todo-list.git
-   ```
-
-2. Navigate to the project directory:
-   ```bash
-   cd todo-list
-   ```
-
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-4. Start the development server:
-   ```bash
-   npm run dev
-   ```
-
-5. Open [http://localhost:5173](http://localhost:5173) in your browser
+4. Open [http://localhost:5173](http://localhost:5173) in your browser
 
 ## Usage
 
-1. **Adding a Todo**
-   - Type your todo in the input field
-   - Press Enter or click "Add" button
+### Managing Projects
+- Use the sidebar to switch between projects
+- Each project has its own board and issues
+- Collapse the sidebar for more workspace
 
-2. **Completing a Todo**
-   - Click the checkbox next to the todo
+### Creating Issues
+1. Click "Create Issue" button
+2. Fill in the issue details:
+   - Title
+   - Type (Story/Task/Bug)
+   - Priority
+   - Assignee
+   - Due Date
+3. Submit to add to the backlog
 
-3. **Reordering Todos**
-   - Click and drag a todo to a new position
-   - Drop it where you want it to appear
+### Using the Kanban Board
+- Drag and drop issues between columns
+- Click on issues to view/edit details
+- Monitor progress with status columns
 
-4. **Deleting a Todo**
-   - Click the "Delete" button next to the todo
+### Theme Switching
+- Toggle between light and dark themes
+- Consistent styling across the application
 
-5. **Switching Themes**
-   - Click the sun/moon icon in the header to toggle between light and dark modes
-
-## Making Changes
-
-When making changes to the project:
-
-1. Make your code changes
-2. Update the README if needed
-3. Commit and push your changes:
-   ```bash
-   git add .
-   git commit -m "Description of your changes"
-   git push
-   ```
+## Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
-
-This project is open source and available under the MIT License.
-
-## Author
-
-Hassam Imtiaz - [@hassamimtiaz](https://github.com/hassamimtiaz)
+This project is licensed under the MIT License - see the LICENSE file for details.
